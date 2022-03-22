@@ -1899,6 +1899,44 @@ html,body {
     padding-top: 90px;
     padding-bottom: 60px;
 }
+
+.step-img{
+    height: 100px;
+    width: 100px;
+}
+
+.work-steps-step{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.work-steps-step p{
+    text-align: center;
+}
+
+.work-steps-step h3{
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.work-steps-multi-box{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 20px;
+    padding: 28px;
+    width: 100%;
+}
+
+.work-steps-header{
+    font-size: 75px;
+    font-weight: 100;
+}
+
 /*
 
 */

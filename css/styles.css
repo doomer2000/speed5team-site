@@ -2407,6 +2407,59 @@ html, body {
   padding-bottom: 60px;
 }
 
+.step-img {
+  height: 100px;
+  width: 100px;
+}
+
+.work-steps-step {
+  width: 35%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.work-steps-step p {
+  text-align: center;
+}
+
+.work-steps-step h3 {
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.work-steps-multi-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+          box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  border-radius: 20px;
+  padding: 28px;
+  width: 100%;
+}
+
+.work-steps-header {
+  font-size: 75px;
+  font-weight: 100;
+}
+
 /*
 
 */
