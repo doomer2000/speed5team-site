@@ -44,7 +44,7 @@ html, body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #757597;
+  background-color: #00693e;
 }
 
 #header_container {
@@ -400,7 +400,7 @@ html, body {
 }
 
 #sidebar li a:hover {
-  background: #757597;
+  background: #00693e;
 }
 
 .menu a.home {
@@ -479,7 +479,7 @@ html, body {
 }
 
 .overflow-hidden__box::-webkit-scrollbar-thumb {
-  background-color: #757597;
+  background-color: #00693e;
 }
 
 .crm-systems-list {
@@ -1032,7 +1032,7 @@ html, body {
 
 .box-statistic {
   height: 600px;
-  background-color: #757597;
+  background-color: #00693e;
   width: 100%;
   position: relative;
   display: -webkit-box;
@@ -1197,12 +1197,12 @@ html, body {
   padding: 15px 40px;
   display: block;
   text-decoration: none;
-  background: #757597;
+  background: #00693e;
   font-weight: bold;
   color: white;
   text-transform: uppercase;
   font-family: 'Roboto',sans-serif;
-  border: 2px solid #757597;
+  border: 2px solid #00693e;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   -webkit-transition: 0.5s;
@@ -1214,7 +1214,7 @@ html, body {
   display: block;
   text-decoration: none;
   font-weight: bold;
-  color: #757597;
+  color: #00693e;
   text-transform: uppercase;
   font-family: 'Roboto',sans-serif;
   border: 2px solid white;
@@ -1273,7 +1273,7 @@ html, body {
   font-family: 'Roboto',sans-serif;
   font-size: 75px;
   font-weight: bold;
-  color: #757597;
+  color: #00693e;
 }
 
 .number-item_introtext {
@@ -1327,7 +1327,7 @@ html, body {
 .lasted-news_textnews a {
   display: block;
   text-decoration: none;
-  color: #757597;
+  color: #00693e;
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
@@ -1475,7 +1475,7 @@ html, body {
   padding: 14px 56px;
   width: 190px;
   color: white;
-  background-color: #757597;
+  background-color: #00693e;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 700;
@@ -1487,7 +1487,7 @@ html, body {
 }
 
 .successfull-case__button-award:hover {
-  color: #757597;
+  color: #00693e;
   background-color: black;
 }
 
@@ -1628,7 +1628,7 @@ html, body {
   padding: 15px 40px;
   display: block;
   text-decoration: none;
-  background: #757597;
+  background: #00693e;
   font-weight: bold;
   color: white;
   text-transform: uppercase;
@@ -1650,7 +1650,7 @@ html, body {
   display: block;
   text-decoration: none;
   font-weight: bold;
-  color: #757597;
+  color: #00693e;
   text-transform: uppercase;
   font-family: 'Roboto',sans-serif;
   -webkit-box-sizing: border-box;
@@ -1741,7 +1741,7 @@ html, body {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  color: #757597;
+  color: #00693e;
 }
 
 .text-advantages {
@@ -1763,7 +1763,7 @@ html, body {
 }
 
 .text-advantages a:hover {
-  color: #757597;
+  color: #00693e;
 }
 
 .text-advantages p {
@@ -1876,7 +1876,7 @@ html, body {
 }
 
 .section_consulting {
-  background-color: #757597;
+  background-color: #00693e;
 }
 
 .box-consulting {
@@ -1923,7 +1923,7 @@ html, body {
 
 .item-consulting a:hover {
   background-color: black;
-  color: #757597;
+  color: #00693e;
 }
 
 .box-flexitem-contact_address {
@@ -2060,7 +2060,7 @@ html, body {
 .button-message-send {
   border: 0px;
   outline: none;
-  background-color: #757597;
+  background-color: #00693e;
   color: white;
   padding: 14px 60px;
   text-transform: uppercase;
@@ -2162,7 +2162,7 @@ html, body {
 }
 
 .list-news_tags li a:hover {
-  color: #757597;
+  color: #00693e;
 }
 
 .container-list-news {
@@ -2195,7 +2195,7 @@ html, body {
 }
 
 .list-news_linkfull_title:hover {
-  color: #757597;
+  color: #00693e;
 }
 
 .list-news_linkfull_title h5 {
@@ -2240,7 +2240,7 @@ html, body {
 
 .list-news_readfull:hover {
   background: #000;
-  color: #757597;
+  color: #00693e;
 }
 
 .box-list-news_button-readfull {
@@ -2274,7 +2274,7 @@ html, body {
   padding: 7px 13px;
   text-decoration: none;
   color: white;
-  background-color: #757597;
+  background-color: #00693e;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
   font-family: 'Roboto', sans-serif;
@@ -2283,7 +2283,7 @@ html, body {
 }
 
 .box-list-news_pagination li a:hover {
-  color: #757597;
+  color: #00693e;
   background-color: black;
 }
 
@@ -2386,7 +2386,7 @@ html, body {
   position: absolute;
   right: 0px;
   top: 0px;
-  background-color: #757597;
+  background-color: #00693e;
   font-family: fontawesome;
   font-size: 15px;
   font-weight: 100;
