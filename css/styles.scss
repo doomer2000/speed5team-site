@@ -44,6 +44,49 @@ html,body {
     text-transform: uppercase;
 }
 
+.why-us-box{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+
+.why-us-box h2{
+    font-size: 75px;
+    font-weight: 100;
+}
+
+.why-us-box ul li{
+    font-size: 31px;
+    font-weight: 300;
+    line-height: 2;
+    letter-spacing: 7px;
+}
+
+.resh-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px !important;
+}
+
+.resh-box h2{
+    font-size: 55px;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.resh-box-item h2{
+    font-size: 45px;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.resh-box h3{
+    font-size: 25px;
+    font-weight: 100;
+    margin-bottom: 0;
+}
+
 .header-logo{
     margin-left: -110px;
 }
@@ -76,6 +119,31 @@ html,body {
     width: 1280px;
     margin: auto;
 }
+
+@media(max-width: 1000px)
+{
+    .about-us-text{
+        width: 100% !important;
+        word-break: break-word;
+    }
+
+    .about-us-img{
+        display: none;
+    }
+
+    .slider-element-img{
+        display: none !important;
+    }
+
+    .slider-element-info h2{
+        font-size: 40px !important;
+    }
+
+    .slider-element-info h3{
+        font-size: 15px !important;
+    }
+}
+
 @media (max-width: 1280px) {
   .wrapper {
     width: 100%;
@@ -421,12 +489,12 @@ html,body {
 
 #slider {
     width: 100%;
-    height: calc(60vh - 150px);
+    height: calc(70vh - 150px);
     background-color: $primary-green-bright-color;
 }
 
 .slider-element{
-    height: calc(60vh - 150px) !important;
+    height: calc(70vh - 150px) !important;
     min-height: 0px;
 }
 
@@ -454,14 +522,17 @@ html,body {
 }
 
 .slider-element-info h2{
+    font-weight: 100;
     font-size: 60px;
     color: $text1-color;
     margin-bottom: 0px;
 }
 
 .slider-element-info h3{
+    font-weight: 100;
     color: $text1-color;
     max-width: 80%;
+    letter-spacing: 4px;
 }
 
 #footer {
@@ -1147,14 +1218,6 @@ html,body {
     width: 28%;
     text-align: center;
 }
-/* Стили для активной вкладки */
-.tab-header__item.active {
-
-}
-/* Стиль для списка контейнеров с содержимым вкладок */
-.tab-content {
-
-}
 /* Стили для контейнера с содержимым вкладки. По умолчанию скрыт. */
 .tab-content__item {
    display: none;
@@ -1273,9 +1336,6 @@ html,body {
     background-size: cover;
     color: $text1-color;
     /*filter: grayscale(100%);*/
-}
-.box_text__whychooseus {
-    
 }
 .box_text__whychooseus h5{
     font-family:'Roboto', sans-serif;
@@ -1932,7 +1992,6 @@ html,body {
     display: flex;
     justify-content: center;
     align-items: baseline;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
     border-radius: 20px;
     padding: 28px;
     width: 100%;
@@ -1967,12 +2026,39 @@ html,body {
 .about-us-text h3{
     font-weight: 300;
     font-size: 25px;
+    letter-spacing: 2.5px;
 }
 
 .text-italic{
     font-style: italic;
 }
 
+.clients-list-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.clients-list-box h3{
+    font-size: 45px;
+    font-weight: 100; 
+    margin-bottom: 0;
+}
+
+.client-img{
+    margin: 20px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
 /*
 
 */
