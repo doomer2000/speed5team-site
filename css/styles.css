@@ -1,4 +1,16 @@
 @charset "UTF-8";
+:root {
+  --border-size: 0.125rem;
+  --duration: 250ms;
+  --ease: cubic-bezier(0.215, 0.61, 0.355, 1);
+  --font-family: monospace;
+  --color-primary: white;
+  --color-secondary: #00693e;
+  --color-tertiary: dodgerblue;
+  --shadow: rgba(0, 0, 0, 0.1);
+  --space: 1rem;
+}
+
 html, body {
   margin: 0px;
   width: 100%;
@@ -2624,7 +2636,133 @@ html, body {
           flex-direction: row;
 }
 
-/*
+.service-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 
-*/
+.service-img {
+  width: 50%;
+}
+
+.service-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 5%;
+  padding-top: 10px;
+  width: 50%;
+}
+
+.service-text h2 {
+  font-size: 45px;
+  font-weight: 100;
+}
+
+.service-text h3 {
+  font-weight: 300;
+  font-size: 25px;
+  letter-spacing: 2.5px;
+}
+
+.service-par h3 {
+  font-size: 40px;
+  font-weight: 100;
+  margin: 0;
+}
+
+.service-par .line {
+  width: 10%;
+  height: 6px;
+  background: #00693e;
+}
+
+.skill-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.skill-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.multi-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-shadow: var(--shadow) 4px 4px;
+          box-shadow: var(--shadow) 4px 4px;
+}
+
+.multi-button button {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  cursor: pointer;
+  position: relative;
+  padding: calc(var(--space) / 1.125) var(--space) var(--space);
+  border: var(--border-size) solid black;
+  color: var(--color-secondary);
+  background-color: var(--color-primary);
+  font-size: 1.5rem;
+  font-family: var(--font-family);
+  text-shadow: var(--shadow) 2px 2px;
+  -webkit-transition: flex-grow var(--duration) var(--ease), -webkit-box-flex var(--duration) var(--ease);
+  transition: flex-grow var(--duration) var(--ease), -webkit-box-flex var(--duration) var(--ease);
+  transition: flex-grow var(--duration) var(--ease);
+  transition: flex-grow var(--duration) var(--ease), -webkit-box-flex var(--duration) var(--ease), -ms-flex-positive var(--duration) var(--ease);
+}
+
+.multi-button button + button {
+  border-left: var(--border-size) solid black;
+  margin-left: calc(var(--border-size) * -1);
+}
+
+.multi-button button:hover,
+.multi-button button:focus {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  color: white;
+  outline: none;
+  text-shadow: none;
+  background-color: var(--color-secondary);
+}
+
+.multi-button button:focus {
+  outline: var(--border-size) dashed var(--color-primary);
+  outline-offset: calc(var(--border-size) * -3);
+}
+
+.multi-button:hover button:focus:not(:hover) {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  color: var(--color-secondary);
+  background-color: var(--color-primary);
+  outline-color: var(--color-tertiary);
+}
+
+.multi-button button:active {
+  -webkit-transform: translateY(var(--border-size));
+          transform: translateY(var(--border-size));
+}
 /*# sourceMappingURL=styles.css.map */

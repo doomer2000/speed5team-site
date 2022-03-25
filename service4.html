@@ -19,7 +19,7 @@
                     <ul class="first_lvl_menu">
                         <li><a href="/index.html" class="link">Главная</a></li>
                         <li><a href="/aboutus.html" class="link">О нас</a></li>
-                        <li><a href="#" class="link">Услуги</a>
+                        <li><a href="#" class="link active">Услуги</a>
                             <ul class="second_lvl_menu">
                                 <li><a href="/service1.html">Внедрение, Сопровождение, Надстройка CRM</a></li>
                                 <li><a href="/service2.html">Написание кастомных систем</a></li>
@@ -29,79 +29,49 @@
                                 <li><a href="/service6.html">Бизнес-анализ</a></li>
                             </ul>
                         </li>
-                        <li><a href="/clients.html" class="link  active">Клиенты</a></li>
+                        <li><a href="/clients.html" class="link">Клиенты</a></li>
                         <li><a href="#" class="link">Партнеры</a></li>
                         <li><a href="/contacts.html" class="link">Контакты</a></li>
                     </ul>
             </div>
         </div>
     </div>
-    <div id="drop_menu_wrapper">
-        <div class="main-content">                  
-                <a href="#" data-toggle=".sidebar" id="sidebar-toggle">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </a>
-        </div>
-    </div>
-    <div class="box-clients-flex">
-        <div class="clients-list-box wrapper">
-            <h3>Нам доверяют</h3>
-            <div class="clients-list">
-                <div class="flex-row">
-                    <div class="client-img" style="background-image: url(https://raw.githubusercontent.com/doomer2000/speed5team-site/main/docs/assets/clients/domrf-logo.png); "></div>
-                    <div class="client-img" style="background-image: url(https://raw.githubusercontent.com/doomer2000/speed5team-site/main/docs/assets/clients/fmrus-logo.webp);"></div>
-                    <div class="client-img" style="background-image: url(https://raw.githubusercontent.com/doomer2000/speed5team-site/main/docs/assets/clients/korus-logo.svg);"></div>
-                    <div class="client-img" style="background-image: url(https://raw.githubusercontent.com/doomer2000/speed5team-site/main/docs/assets/clients/mercedes-logo.svg); background-size: 120px;"></div>
+    <div class="service-box">
+        <div class="service-text">
+            <h2>Техническая поддержка CRM</h2>
+            <h3>
+                Обеспечим стабильную работу ваших IT-продуктов 24/7<br/>
+                Предоставим техническую поддержку IT-продуктов любого масштаба<br/>
+                Предоставим команду технической поддержки под ваши потребности<br/>
+                Проведем аудит, найдем «тонкие» места в системе и составим план по их устранению<br/>
+                Заказчику не нужно ничего менять на своей стороне, или переводить проект в другой дата-центр, или разворачивать его «с нуля». Специалисты Speed5 работают со всеми популярными технологиями и инструментами.
+            </h3>
+            <div class="skill-list">
+                <h3>ТЕХНОЛОГИЧЕСКИЕ КОМПЕТЕНЦИИ</h3>
+                <div class="skill-buttons">
+                    <div class="multi-button">
+                        <button class="skill-btn" id="crm-skill">CRM</button>
+                        <button class="skill-btn" id="infr-skill">Инфраструктура</button>
+                        <button class="skill-btn" id="subd-skill">СУБД</button>
+                        <button class="skill-btn" id="net-skill">Сети</button>
+                        <button class="skill-btn" id="query-skill">Очереди</button>
+                    </div>
                 </div>
-                <div class="flex-row">
-                    <div class="client-img" style="background-image: url(https://raw.githubusercontent.com/doomer2000/speed5team-site/main/docs/assets/clients/MSD-logo.png);"></div>
-                    <div class="client-img" style="background-image: url(https://raw.githubusercontent.com/doomer2000/speed5team-site/main/docs/assets/clients/pharm-logo.svg);"></div>
-                    <div class="client-img" style="background-image: url(https://raw.githubusercontent.com/doomer2000/speed5team-site/main/docs/assets/clients/rshb-logo.png);"></div>
-                    <div class="client-img" style="background-image: url(https://raw.githubusercontent.com/doomer2000/speed5team-site/main/docs/assets/clients/rt-logo.svg);"></div>
+                <div style="display: none;" class="skill-info" id="crm-skill-info">
+                    <h3>Creatio(Terrasoft), amoCRM, ZohoCRM, Bitrix24, elmaCRM</h3>
                 </div>
-                <div class="flex-row">
-                    <div class="client-img" style="background-image: url(https://raw.githubusercontent.com/doomer2000/speed5team-site/main/docs/assets/clients/sdek-logo.png); background-size: 150px;"></div>
-                    <div class="client-img" style="background-image: url(https://raw.githubusercontent.com/doomer2000/speed5team-site/main/docs/assets/clients/shell-logo.svg); background-size: 135px;"></div>
-                    <div class="client-img" style="background-image: url(https://raw.githubusercontent.com/doomer2000/speed5team-site/main/docs/assets/clients/valta-logo.png);"></div>
-                    <div class="client-img" style="background-image: url(https://raw.githubusercontent.com/doomer2000/speed5team-site/main/docs/assets/clients/verniy-logo.png);"></div>
+                <div class="skill-info" id="infr-skill-info">
+                    <h3>Amazon Web Services, Microsoft Azure, Proxmox, VMware, Yandex Cloud, Bare metal, AWS, Azure, DO</h3>
                 </div>
-            </div>
-        </div>
-    </div>
-    <div>
-        <div class="resh-box wrapper">
-            <h2>Решения</h2>
-            <div class="resh-box-item">
-                <h2>Банки</h2>
-                <h3>
-                    Автоматизация работы с корпоративными и розничными клиентами. Консолидация всей информации по взаимодействию с клиентами банка. Гибкий, настраиваемый процесс продаж и этапы процесса в зависимости от регламентов банка. Оперативный контроль активностей менеджеров. Формирование отчетности в различных разрезах.
-                </h3>
-            </div>
-            <div class="resh-box-item">
-                <h2>Автоматизация бизнеса</h2>
-                <h3>
-                    Подсчет продаж и прибыли, менеджмент проектов, работа с персоналом, оформление заказов, обработка обращений, аналитика.
-                </h3>
-            </div>
-            <div class="resh-box-item">
-                <h2>Медицинская сфера</h2>
-                <h3>
-                    Управление работой с пациентами. Управление работы с обращениями, отзывами, претензиями. Отслеживание истории взаимодействия с пациентами: от канала привлечения до полученной прибыли. Формирование отчётов по собранным данным. Формирование планов и маршрутов.
-                </h3>
-            </div>
-            <div class="resh-box-item">
-                <h2>Продуктовые магазины</h2>
-                <h3>
-                    Формирование клиентской и продуктовой базы данных, её сегментация, определение целевой аудитории, статистика предпочтений клиентов, аналитические инструменты. Учет бонусов, дисконтных карт, скидок, отслеживание результатов активности клиентов по акциям, формирование аналитики, хранение историй покупок. Учет обращений, жалоб, звонков, их результатов, сегментация обращений, организация работы колл-центра или сервисной службы. Интеграция с IP-телефонией и собственной электронной почтой магазина. Учет продаж и сделок по клиентам, контроль воронки продаж. Управление задачами сотрудников, которые участвуют во взаимодействии с клиентами.
-                </h3>
-            </div>
-            <div class="resh-box-item">
-                <h2>Торги</h2>
-                <h3>
-                    Добавление закупок. Задачи по организации закупок. Сбор предложений. История взаимодействия с поставщиками. Формирование отчетов.
-                </h3>
+                <div style="display: none;" class="skill-info" id="subd-skill-info">
+                    <h3>PostgreSQL, MySQL, MSSql, Redis, Oracle</h3>
+                </div>
+                <div style="display: none;" class="skill-info" id="net-skill-info">
+                    <h3>VPN, Firewalls, Load balancers</h3>
+                </div>
+                <div style="display: none;" class="skill-info" id="query-skill-info">
+                    <h3>Kafka, RabbitMQ</h3>
+                </div>
             </div>
         </div>
     </div>
@@ -168,6 +138,13 @@
 	} 
 }
 $(window).on('load resize',windowSize);*/
+</script>
+<script>
+    $(".skill-btn").click(function(event) {
+      $(".skill-info").hide();
+      var name = "#" + event.target.id +"-info";
+      $(name).show();
+    });
 </script>
 <script>
     $(document).ready(function() {

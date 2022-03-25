@@ -19,7 +19,7 @@
                     <ul class="first_lvl_menu">
                         <li><a href="/index.html" class="link">Главная</a></li>
                         <li><a href="/aboutus.html" class="link">О нас</a></li>
-                        <li><a href="#" class="link">Услуги</a>
+                        <li><a href="#" class="link active">Услуги</a>
                             <ul class="second_lvl_menu">
                                 <li><a href="/service1.html">Внедрение, Сопровождение, Надстройка CRM</a></li>
                                 <li><a href="/service2.html">Написание кастомных систем</a></li>
@@ -29,79 +29,172 @@
                                 <li><a href="/service6.html">Бизнес-анализ</a></li>
                             </ul>
                         </li>
-                        <li><a href="/clients.html" class="link  active">Клиенты</a></li>
-                        <li><a href="#" class="link">Партнеры</a></li>
+                        <li><a href="/clients.html" class="link">Клиенты</a></li>
+                        <li><a href="/partners.html" class="link">Партнеры</a></li>
                         <li><a href="/contacts.html" class="link">Контакты</a></li>
                     </ul>
             </div>
         </div>
     </div>
-    <div id="drop_menu_wrapper">
-        <div class="main-content">                  
-                <a href="#" data-toggle=".sidebar" id="sidebar-toggle">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </a>
-        </div>
-    </div>
-    <div class="box-clients-flex">
-        <div class="clients-list-box wrapper">
-            <h3>Нам доверяют</h3>
-            <div class="clients-list">
-                <div class="flex-row">
-                    <div class="client-img" style="background-image: url(https://raw.githubusercontent.com/doomer2000/speed5team-site/main/docs/assets/clients/domrf-logo.png); "></div>
-                    <div class="client-img" style="background-image: url(https://raw.githubusercontent.com/doomer2000/speed5team-site/main/docs/assets/clients/fmrus-logo.webp);"></div>
-                    <div class="client-img" style="background-image: url(https://raw.githubusercontent.com/doomer2000/speed5team-site/main/docs/assets/clients/korus-logo.svg);"></div>
-                    <div class="client-img" style="background-image: url(https://raw.githubusercontent.com/doomer2000/speed5team-site/main/docs/assets/clients/mercedes-logo.svg); background-size: 120px;"></div>
+    <div class="service-box">
+        <div class="service-text">
+            <h2>Аутсорсинг</h2>
+            <h3>
+                Команда Speed5 готова усилить Вашу команду или предоставить команду разработчиков под управление Заказчика. <br/>
+                Воспользовавшись аутсорсингом Speed5 Заказчик получает решение любых IT-задач в короткие сроки.<br/>
+            </h3>
+            <div class="skill-list">
+                <h3>ТЕХНОЛОГИЧЕСКИЕ КОМПЕТЕНЦИИ</h3>
+                <div class="skill-buttons">
+                    <div class="multi-button">
+                        <button class="skill-btn" id="csharp-skill">C#</button>
+                        <button class="skill-btn" id="js-skill">JS</button>
+                        <button class="skill-btn" id="1c-skill">1C</button>
+                        <button class="skill-btn" id="qa-skill">QA</button>
+                        <button class="skill-btn" id="cpp-skill">C++</button>
+                        <button class="skill-btn" id="devops-skill">DevOps</button>
+                        <button class="skill-btn" id="analis-skill">Аналитика</button>
+                    </div>
                 </div>
-                <div class="flex-row">
-                    <div class="client-img" style="background-image: url(https://raw.githubusercontent.com/doomer2000/speed5team-site/main/docs/assets/clients/MSD-logo.png);"></div>
-                    <div class="client-img" style="background-image: url(https://raw.githubusercontent.com/doomer2000/speed5team-site/main/docs/assets/clients/pharm-logo.svg);"></div>
-                    <div class="client-img" style="background-image: url(https://raw.githubusercontent.com/doomer2000/speed5team-site/main/docs/assets/clients/rshb-logo.png);"></div>
-                    <div class="client-img" style="background-image: url(https://raw.githubusercontent.com/doomer2000/speed5team-site/main/docs/assets/clients/rt-logo.svg);"></div>
+                <div style="display: none;" class="skill-info" id="js-skill-info">
+                    <h3>Технологии</h3>
+
+                    <h4>JavaScript, TypeScript, HTML 5, CSS 3</h4>
+
+                    <h3>Библиотеки/фреймворки</h3>
+
+                    <h4>Angular 5–9, (NgRx), React, (Redux, MobX, Next.js), VueJS, (Vuex, Nuxt.js), NodeJS(Express), React Native</h4>
                 </div>
-                <div class="flex-row">
-                    <div class="client-img" style="background-image: url(https://raw.githubusercontent.com/doomer2000/speed5team-site/main/docs/assets/clients/sdek-logo.png); background-size: 150px;"></div>
-                    <div class="client-img" style="background-image: url(https://raw.githubusercontent.com/doomer2000/speed5team-site/main/docs/assets/clients/shell-logo.svg); background-size: 135px;"></div>
-                    <div class="client-img" style="background-image: url(https://raw.githubusercontent.com/doomer2000/speed5team-site/main/docs/assets/clients/valta-logo.png);"></div>
-                    <div class="client-img" style="background-image: url(https://raw.githubusercontent.com/doomer2000/speed5team-site/main/docs/assets/clients/verniy-logo.png);"></div>
+                <div class="skill-info" id="csharp-skill-info">
+                    <h3>Web, backend</h3>
+
+                    <h4>ASP.NET MVC, ASP.NET WebAPI, ASP.NET Core</h4>
+
+                    <h3>Desktop</h3>
+
+                    <h4>WinForms, WPF, UWP, Avalonia</h4>
+
+                    <h3>Управление данными</h3>
+
+                    <h4>ADO.NET, Entity Framework, Entity Framework Core, Dapper, NHibernate</h4>
+
+                    <h3>Frontend (fullstack)</h3>
+
+                    <h4>Razor, HTML/CSS, Bootstrap, Javascript, AJAX, jQuery, Angular, React</h4>
+
+                    <h3>Облачные технологии</h3>
+
+                    <h4>Azure, ServiceFabric, Cosmos DB</h4>
+
+                    <h3>Бизнес</h3>
+
+                    <h4>Dynamics CRM, Sharepoint</h4>
                 </div>
-            </div>
-        </div>
-    </div>
-    <div>
-        <div class="resh-box wrapper">
-            <h2>Решения</h2>
-            <div class="resh-box-item">
-                <h2>Банки</h2>
-                <h3>
-                    Автоматизация работы с корпоративными и розничными клиентами. Консолидация всей информации по взаимодействию с клиентами банка. Гибкий, настраиваемый процесс продаж и этапы процесса в зависимости от регламентов банка. Оперативный контроль активностей менеджеров. Формирование отчетности в различных разрезах.
-                </h3>
-            </div>
-            <div class="resh-box-item">
-                <h2>Автоматизация бизнеса</h2>
-                <h3>
-                    Подсчет продаж и прибыли, менеджмент проектов, работа с персоналом, оформление заказов, обработка обращений, аналитика.
-                </h3>
-            </div>
-            <div class="resh-box-item">
-                <h2>Медицинская сфера</h2>
-                <h3>
-                    Управление работой с пациентами. Управление работы с обращениями, отзывами, претензиями. Отслеживание истории взаимодействия с пациентами: от канала привлечения до полученной прибыли. Формирование отчётов по собранным данным. Формирование планов и маршрутов.
-                </h3>
-            </div>
-            <div class="resh-box-item">
-                <h2>Продуктовые магазины</h2>
-                <h3>
-                    Формирование клиентской и продуктовой базы данных, её сегментация, определение целевой аудитории, статистика предпочтений клиентов, аналитические инструменты. Учет бонусов, дисконтных карт, скидок, отслеживание результатов активности клиентов по акциям, формирование аналитики, хранение историй покупок. Учет обращений, жалоб, звонков, их результатов, сегментация обращений, организация работы колл-центра или сервисной службы. Интеграция с IP-телефонией и собственной электронной почтой магазина. Учет продаж и сделок по клиентам, контроль воронки продаж. Управление задачами сотрудников, которые участвуют во взаимодействии с клиентами.
-                </h3>
-            </div>
-            <div class="resh-box-item">
-                <h2>Торги</h2>
-                <h3>
-                    Добавление закупок. Задачи по организации закупок. Сбор предложений. История взаимодействия с поставщиками. Формирование отчетов.
-                </h3>
+                <div style="display: none;" class="skill-info" id="cpp-skill-info">
+                    <h3>Решения</h3>
+
+                    <h4>Управление оборудованием, системные утилиты, низкоуровневая разработка, монолит, микросервисы, desktop-приложения</h4>
+
+                    <h3>Стандарт</h3>
+
+                    <h4>С++ 98, С++ 11, С++ 14</h4>
+
+                    <h3>Библиотеки</h3>
+
+                    <h4>OpenCV, Boost, Google Glog, Google Test, QT, Chromium Embedded Framework</h4>
+
+                    <h3>Технологии</h3>
+
+                    <h4>XSLT, MFC, Direct 3D</h4>
+                </div>
+                <div style="display: none;" class="skill-info" id="1c-skill-info">
+                    <h3>Конфигурации</h3>
+
+                    <h4>ERP, Комплексная автоматизация, Бухгалтерия предприятия, Управление торговлей, Зарплата и управление персоналом и другие, типовые и отраслевые</h4>
+
+                    <h3>Возможности интеграции</h3>
+
+                    <h4>Склады, производства, ритейл, продажи, финансовые отделы, управление персоналом</h4>
+                </div>
+                <div style="display: none;" class="skill-info" id="qa-skill-info">
+                    <h3>Решения</h3>
+
+                    <h4>Комплексное тестирование web-, desktop- и mobile-приложений. End-to-end тестирование, API-тестирование, интеграционное тестирование</h4>
+
+                    <h3>Тестовая документация</h3>
+
+                    <h4>Составление чек-листов, тест-кейсов, тест-планов с применением техник тест-дизайна</h4>
+
+                    <h3>Аудит и контроль</h3>
+
+                    <h4>Аудит качества приложения и процессов. Контроль качества на всех этапах разработки приложения</h4>
+                </div>
+                <div style="display: none;" class="skill-info" id="devops-skill-info">
+                    <h3>Инфраструктура</h3>
+
+                    <h4>Bare metal, AWS, Azure, DO, Proxmox, VMware</h4>
+                    <h4>Bare</h4>
+                    <h3>Конфигурация</h3>
+
+                    <h4>Ansible, Terraform, Vagrant</h4>
+
+                    <h3>CI/CD</h3>
+
+                    <h4>Gitlab, Jenkins, Teamcity</h4>
+
+                    <h3>Контейнеры</h3>
+
+                    <h4>Docker, Kubernetes</h4>
+
+                    <h3>Очереди</h3>
+
+                    <h4>Kafka, RabbitMQ</h4>
+
+                    <h3>Сети</h3>
+
+                    <h4>VPN, firewalls, Load balancers</h4>
+
+                    <h3>Мониторинг</h3>
+
+                    <h4>Prometheus, ELK</h4>
+
+                    <h3>Решения</h3>
+
+                    <h4>Траблшутинг, аудит, Linux</h4>
+                </div>
+                <div style="display: none;" class="skill-info" id="analis-skill-info">
+                    <h3>Выявление и анализ требований</h3>
+
+                    <h4>Разработка концепции и видения продукта, Customer Development</h4>
+
+                    <h3>Описание бизнес-процессов и пользовательских сценариев</h3>
+
+                    <h4>UML, BPMN, Use Cases, User Stories</h4>
+
+                    <h3>Архитектура и базы данных</h3>
+
+                    <h4>Проработка логических моделей, ERD, SQL запросы, нереляционные БД</h4>
+
+                    <h3>Прототипирование</h3>
+
+                    <h4>UI-проектирование</h4>
+
+                    <h3>ТЗ и документация</h3>
+
+                    <h4>ТЗ (в т.ч. по ГОСТ), ЧТЗ, спецификации требований, ПМИ</h4>
+
+                    <h3>Интеграция</h3>
+
+                    <h4>API, Swagger, JSON, XSD, XML, REST, SOAP</h4>
+
+                    <h3>Web-аналитика</h3>
+
+                    <h4>Google Analytics, Yandex.Метрика</h4>
+
+                    <h3>Инструменты</h3>
+
+                    <h4>Axure, Confluence, Enterprise Architect, Figma, Microsoft Visio, Visual Paradigm, Diagrams</h4>
+                </div>
             </div>
         </div>
     </div>
@@ -168,6 +261,13 @@
 	} 
 }
 $(window).on('load resize',windowSize);*/
+</script>
+<script>
+    $(".skill-btn").click(function(event) {
+      $(".skill-info").hide();
+      var name = "#" + event.target.id +"-info";
+      $(name).show();
+    });
 </script>
 <script>
     $(document).ready(function() {
