@@ -145,6 +145,7 @@ html,body {
 
     .slider-element-img{
         display: none !important;
+        
     }
 
     .slider-element-info h2{
@@ -501,7 +502,7 @@ html,body {
 
 #slider {
     width: 100%;
-    height: calc(70vh - 150px);
+    height: calc(97vh - 150px);
     background-color: $primary-green-bright-color;
 }
 
@@ -511,17 +512,28 @@ html,body {
 }
 
 .slider-element-img{
-    height: 595px;
+    height: 100% !important;
     width: 100%;
-    
+}
+
+.slider-element{
+    height: 100% !important !important;
+}
+
+.slick-list{
+    height: 100% !important;
+}
+
+.slick-track{
+    height: 100% !important;
 }
 
 .slider-element-info{
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding-top: 2%;
-    padding-left: 7%;
+    padding-left: 5%;
+    padding-right: 3%;
     justify-content: space-between;
 }
 
