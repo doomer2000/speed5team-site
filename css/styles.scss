@@ -513,11 +513,12 @@ html,body {
 
 .slider-element-img{
     height: 100% !important;
-    width: 100%;
+    width: 115%;
 }
 
-.slider-element{
-    height: 100% !important !important;
+.slick-slide{
+    height: 100% !important;
+    flex-direction: row-reverse;
 }
 
 .slick-list{

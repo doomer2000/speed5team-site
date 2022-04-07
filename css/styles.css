@@ -594,7 +594,7 @@ html, body {
 
 #slider {
   width: 100%;
-  height: calc(70vh - 150px);
+  height: calc(97vh - 150px);
   background-color: #008b51e7;
 }
 
@@ -604,8 +604,24 @@ html, body {
 }
 
 .slider-element-img {
-  height: 595px;
-  width: 100%;
+  height: 100% !important;
+  width: 115%;
+}
+
+.slick-slide {
+  height: 100% !important;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.slick-list {
+  height: 100% !important;
+}
+
+.slick-track {
+  height: 100% !important;
 }
 
 .slider-element-info {
@@ -617,8 +633,8 @@ html, body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding-top: 2%;
-  padding-left: 7%;
+  padding-left: 5%;
+  padding-right: 3%;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
